@@ -15,7 +15,7 @@ while (!infosValidas) {
   let salario = +prompt("Digite seu salário: ");
   let estadoCivil = prompt("Digite seu estado civil: (S,C,V,D)");
   
-  if (nome.length <= 3) {
+  if (nome.length() < 3) {
     console.log("Nome inválido, por favor digite outro.");
     nome = prompt("Digite seu nome: ");
   }
